@@ -11,4 +11,11 @@ import XCTest
 
 class UnitTestPracticeTests: XCTestCase {
 
+    func test_fail() { //Given When Then
+        XCTFail()
+    }
+    
+    func test_fail_withSimpleMessage() {
+        XCTFail("We have an issue!")
+    }
 }
