@@ -52,4 +52,16 @@ class UnitTestPracticeTests: XCTestCase {
         let optionalValue: SimpleStruct? = SimpleStruct(x:1,y:2)
         XCTAssertNil(optionalValue)
     }
+    
+    // CostomStringConvertible
+    struct StructWithDescription: CustomStringConvertible {
+        let x: Int
+        let y: Int
+        
+        var description: String {
+            return "(\(x), \(y))"
+        }
+    }
+    
+    
 }
