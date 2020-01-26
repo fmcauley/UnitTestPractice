@@ -63,5 +63,8 @@ class UnitTestPracticeTests: XCTestCase {
         }
     }
     
-    
+    func test_assertNil_withSelfDescribingType() {
+        let optionalValue: StructWithDescription = StructWithDescription(x: 1, y: 2)
+        XCTAssertNil(optionalValue)
+    }
 }
