@@ -74,6 +74,26 @@ class UnitTestPracticeTests: XCTestCase {
         let actual = "actual"
         XCTAssertEqual(actual, "expected")
     }
+    
+    // order of the arguments for unit test expected then actual
+    // output from test expected $x but the actual value was $c
+    
+    // Testing Equality with Optionals
+    func test_assertEqual_withOptional() {
+        let result: String? = "foo"
+        XCTAssertEqual(result, "bar")
+    }
+    
+    // Fudging Equality with Doubles and Floats need to pass in argument to help with approximation
+    func test_floatingPointDanger() {
+        let result =  0.1 + 0.2
+        XCTAssertEqual(result, 0.3)
+    }
+    
+    func test_floatingPointFixed() {
+        let result = 0.1 + 0.2
+        XCTAssertEqual(result, 0.3, accuracy: 0.0001)
+    }
 }
 
 
