@@ -14,6 +14,8 @@
 		F00BBD9223D8C7400085A51B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00BBD9123D8C7400085A51B /* Preview Assets.xcassets */; };
 		F00BBD9523D8C7400085A51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00BBD9323D8C7400085A51B /* LaunchScreen.storyboard */; };
 		F00BBDA023D8C7400085A51B /* UnitTestPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00BBD9F23D8C7400085A51B /* UnitTestPracticeTests.swift */; };
+		F025C00A23E1FB9D00176EFB /* DollarsandCentsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025C00923E1FB9D00176EFB /* DollarsandCentsTest.swift */; };
+		F05401F223E4AABD0057540A /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05401F123E4AABD0057540A /* LinkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F00BBD9B23D8C7400085A51B /* UnitTestPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00BBD9F23D8C7400085A51B /* UnitTestPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPracticeTests.swift; sourceTree = "<group>"; };
 		F00BBDA123D8C7400085A51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F025C00923E1FB9D00176EFB /* DollarsandCentsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarsandCentsTest.swift; sourceTree = "<group>"; };
+		F05401F123E4AABD0057540A /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				F00BBD9F23D8C7400085A51B /* UnitTestPracticeTests.swift */,
 				F00BBDA123D8C7400085A51B /* Info.plist */,
+				F025C00923E1FB9D00176EFB /* DollarsandCentsTest.swift */,
+				F05401F123E4AABD0057540A /* LinkList.swift */,
 			);
 			path = UnitTestPracticeTests;
 			sourceTree = "<group>";
@@ -219,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00BBDA023D8C7400085A51B /* UnitTestPracticeTests.swift in Sources */,
+				F05401F223E4AABD0057540A /* LinkList.swift in Sources */,
+				F025C00A23E1FB9D00176EFB /* DollarsandCentsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

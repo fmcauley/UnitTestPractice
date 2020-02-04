@@ -94,7 +94,20 @@ class UnitTestPracticeTests: XCTestCase {
         let result = 0.1 + 0.2
         XCTAssertEqual(result, 0.3, accuracy: 0.0001)
     }
+    
+    func test_messageOverKill() {
+        let actual = "actual"
+        XCTAssertEqual(actual, "expected", "Expected \"expected\" but got \"\(actual)\"")
+    }
 }
+
+/*
+ Notes:
+ Fail the test when something other than the expected outcome occurs
+
+ Document how the System Under Test is supposed to behave (i.e., Tests as Documentation)
+
+ */
 
 
 var numberList: Array<Int> = [1,2,3,4,5,6,7,8,9,10]
